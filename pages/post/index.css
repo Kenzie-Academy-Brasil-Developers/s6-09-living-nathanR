@@ -1,1 +1,139 @@
-/* Desenvolva seu estilo aqui */
+body{
+    padding: 3vh 22vw 0px 22vw  ;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.back-home{
+    background-color: var(--color-grey-700) ;
+    border: none;
+    padding: 5px 22px;
+    width: max-content;
+    border-radius: 32px;
+    font-weight: 600;
+}
+
+.back-home:hover{
+    cursor: pointer;
+}
+.logo-div{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.minimal-logo{
+    color: var(--color-brand-100);
+    background-color: var(--color-brand-100);
+    height: 20px;
+    width: 30px;
+    border-radius: 0px 6px ;
+}
+
+.text-logo{
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--color-grey-100);
+}
+
+.page-title{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    padding: 3vh 22vw 0px 22vw;
+    gap: 20px;
+    margin-bottom: 100px;
+    background-color: var(--color-grey-600);
+}
+
+.page-title > h1 {
+    width: 100%;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.page-title > p {
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-grey-200);
+}
+
+main>img{
+    margin-top: 350px;
+    width: 100%;
+}
+
+main > p {
+color: var(--color-grey-200);
+font-weight: 400;
+line-height: 24px;
+text-align: justify;
+margin-top: 16px;
+margin-bottom: 72px;
+}
+
+
+
+.category-list{
+    width: max-content;
+    display: flex;
+    gap: 20px ;
+    margin-bottom: 70px;
+}
+
+.category-list-item{
+    background-color: var(--color-grey-700) ;
+    padding: 5px 22px;
+    width: max-content;
+    border-radius: 32px;
+}
+
+footer{
+    padding: 10px 186px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 205px ;
+    color: #fff;
+    background-color: var(--color-grey-100);
+    width: 100vw;
+    left: 0;
+    gap: 30px;
+}
+footer>div{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer>p{
+    color: var(--color-grey-300)
+}
+footer >button{
+    width: 350px;
+    max-width: 350px;
+    padding: 8px 0px;
+    border-radius: 32px;
+    border: none;
+    color: var(--color-grey-700);
+    background-color: var(--color-grey-200) ;
+}
+
+footer >button:hover{
+    cursor: pointer;
+}
